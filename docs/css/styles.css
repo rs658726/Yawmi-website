@@ -173,6 +173,10 @@ ul {
     list-style-type: none;
 }
 
+.indented-list {
+	padding-left: 1.5rem;
+}
+
 .li-space li {
 	margin-bottom: 14px;
 }
@@ -180,6 +184,10 @@ ul {
 .list-bullets li,
 .list-check li {
 	display: flex;
+}
+
+.indented-list li {
+	padding-left: 1.5rem;
 }
 
 .list-bullets li .fas {
@@ -315,6 +323,10 @@ textarea:focus {
 
 .mb-0 {
 	margin-bottom: 0;
+}
+
+.mb-2 {
+	margin-bottom: 20px;
 }
 
 .mb-4 {
