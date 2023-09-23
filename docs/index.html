@@ -33,8 +33,16 @@
     <nav>
       <div class="container-prim">
         <!-- Image Logo -->
-        <a class="logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a>
+        <a href="index.html" class="logo-content">
+          <img src="images/logo.png">
+          <div class="text">
+            <h4><strong>Yawmi • Daily Planner</strong></h4>
+            <p>Tasks and Calendar</p>
+          </div>
+        </a>
+        <!-- <a class="logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a><span class="logo-text"></span> -->
 
+        
         <!-- Text Logo - Use this if you don't have a graphic logo -->
         <!-- <a class="logo-text" href="index.html">Name</a> -->
 
@@ -102,6 +110,7 @@
           <li class="">Authentication/Authorization tokens are stored in your private Keychain and are needed to log you in automatically when you launch Yawmi. This is all managed by the official Google Sign In SDK for iOS.</li>
           <li>The identification number of any Gmail message you added as a Yawmi task is stored in your private database in order for you to access that message directly from the task detail page.</li>
         </ul>
+        <p class="mb-2">Yawmi's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
         <h2 class="mb-2">Github Integration</h2>
         <h3 class="mb-2">Authentication and Authorization</h3>
         <p class="mb-4">We implemented the Github OAuth 2.0 flow to authenticate and authorize Github-related transactions as defined by <a href="https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps">the Github API documentation</a>.</p>

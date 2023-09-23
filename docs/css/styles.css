@@ -74,7 +74,7 @@ h1 {
 	font-weight: 700;
 	font-size: 2.5rem;
 	line-height: 3.25rem;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 h2 {
@@ -388,8 +388,23 @@ nav {
 nav .container-prim {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: left;
 	justify-content: space-between;
+}
+
+.logo-content {
+	display: flex;
+	align-items: center;
+  }
+  
+.logo-content img {
+	width: 128px;
+	margin-right: 10px;
+	display: block;
+}	
+
+.logo-content h1 {
+	margin: auto;
 }
 
 nav a,
@@ -398,6 +413,7 @@ nav a:hover {
 }
 
 nav .logo-image {
+	content:block;
 	width: 128px;
 	margin-top: 8px;
 	margin-bottom: 8px;
