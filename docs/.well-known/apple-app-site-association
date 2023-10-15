@@ -4,7 +4,7 @@
     "details": [
     {
       "appID": "J479FED2U4.com.RedaSlaoui.Yawmi",
-      "paths": ["*"]
+      "paths": ["/jira/"]
     }
     ]
   }
