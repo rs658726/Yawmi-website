@@ -1,14 +1,12 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
     {
-      "appID": "J479FED2U4.com.RedaSlaoui.Yawmi",
+      "appIDs": ["J479FED2U4.com.RedaSlaoui.Yawmi"],
       "components": [{
         "/": "/jira/*",
         "comment": "Matches any URL whose path starts with /jira/"
+      }]
     }]
-    }
-    ]
   }
 }
