@@ -4,7 +4,10 @@
     "details": [
     {
       "appID": "J479FED2U4.com.RedaSlaoui.Yawmi",
-      "paths": ["/jira/"]
+      "components": [{
+        "/": "/jira/*",
+        "comment": "Matches any URL whose path starts with /jira/"
+    }]
     }
     ]
   }
